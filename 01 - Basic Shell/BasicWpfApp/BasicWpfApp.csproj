@@ -94,5 +94,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Prism.Core">
+      <Version>7.1.0.172-pre</Version>
+    </PackageReference>
+    <PackageReference Include="Prism.Unity">
+      <Version>7.1.0.172-pre</Version>
+    </PackageReference>
+    <PackageReference Include="Prism.Wpf">
+      <Version>7.1.0.172-pre</Version>
+    </PackageReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
