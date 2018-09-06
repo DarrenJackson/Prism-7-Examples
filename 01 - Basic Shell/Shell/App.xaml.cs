@@ -4,6 +4,7 @@
 	using CommonServiceLocator;
 	using Prism.Ioc;
 	using Prism.Unity;
+	using Shell;
 
 	public partial class App : PrismApplication
 	{
